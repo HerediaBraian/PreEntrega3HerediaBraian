@@ -1,0 +1,162 @@
+[
+    {
+        "id": "urbana-01",
+        "titulo": "urbana 01",
+        "imagen": "../IMG/urbana1.jpg",
+        "categoria": {
+            "nombre": "urbanas",
+            "id": "urbanas"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "urbana-02",
+        "titulo": "urbana 02",
+        "imagen": "./IMG/urbana2.jpg",
+        "categoria": {
+            "nombre": "urbanas",
+            "id": "urbanas"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "urbana-03",
+        "titulo": "urbana 03",
+        "imagen": "./IMG/urbana3.jpg",
+        "categoria": {
+            "nombre": "urbanas",
+            "id": "urbanas"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "urbana-04",
+        "titulo": "urbana 04",
+        "imagen": "./IMG/urbana4.jpg",
+        "categoria": {
+            "nombre": "urbanas",
+            "id": "urbanas"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "urbana-05",
+        "titulo": "urbana 05",
+        "imagen": "./IMG/urbana5.jpg",
+        "categoria": {
+            "nombre": "urbanas",
+            "id": "urbanas"
+        },
+        "precio": 7000
+    },
+    {
+        "id": "oversize-01",
+        "titulo": "oversize 01",
+        "imagen": "./IMG/oversize1.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "oversize-02",
+        "titulo": "oversize 02",
+        "imagen": "./IMG/oversize2.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "oversize-03",
+        "titulo": "oversize 03",
+        "imagen": "./IMG/oversize3.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "oversize-04",
+        "titulo": "oversize 04",
+        "imagen": "./IMG/oversize4.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "oversize-05",
+        "titulo": "oversize 05",
+        "imagen": "./IMG/oversize5.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "oversize-06",
+        "titulo": "oversize 06",
+        "imagen": "./IMG/oversize6.jpg",
+        "categoria": {
+            "nombre": "oversizes",
+            "id": "oversizes"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "musculosas-01",
+        "titulo": "musculosas 01",
+        "imagen": "./IMG/musculosa1.jpg",
+        "categoria": {
+            "nombre": "musculosas",
+            "id": "musculosas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "musculosas-02",
+        "titulo": "musculosas 02",
+        "imagen": "./IMG/musculosa2.jpg",
+        "categoria": {
+            "nombre": "musculosas",
+            "id": "musculosas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "musculosas-03",
+        "titulo": "musculosas 03",
+        "imagen": "./IMG/musculosa3.jpg",
+        "categoria": {
+            "nombre": "musculosas",
+            "id": "musculosas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "musculosas-04",
+        "titulo": "musculosas 04",
+        "imagen": "./IMG/musculosa4.jpg",
+        "categoria": {
+            "nombre": "musculosas",
+            "id": "musculosas"
+        },
+        "precio": 6000
+    },
+    {
+        "id": "musculosas-05",
+        "titulo": "musculosas 05",
+        "imagen": "./IMG/musculosa5.jpg",
+        "categoria": {
+            "nombre": "musculosas",
+            "id": "musculosas"
+        },
+        "precio": 6000
+    }
+]

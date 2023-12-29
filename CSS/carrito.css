@@ -5,12 +5,11 @@
     object-fit: contain;
 }
 
-
 #carrito {
     display: none;
     position: absolute;
-    top: 60px; /* Puedes ajustar la posición según tu diseño */
-    right: 10px; /* Puedes ajustar la posición según tu diseño */
+    top: 60px; 
+    right: 10px; 
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
@@ -49,7 +48,7 @@
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 20px; /* Ajusta el tamaño del icono según tu preferencia */
+    font-size: 20px; 
 }
 
 #vaciar-carrito:hover {
@@ -57,7 +56,7 @@
 }
 
 #vaciar-carrito i {
-    transition: color 0.3s ease; /* Agrega una transición suave al cambio de color */
+    transition: color 0.3s ease; 
 }
 
 #vaciar-carrito:hover i {
@@ -85,3 +84,242 @@
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
+
+
+.mensaje-agregado {
+    z-index: 1000;
+}
+
+
+
+/* Estilos para el carrito */
+
+#carrito-icon {
+    font-size: 24px;
+    color: #007bff; 
+    margin-right: 15px;
+}
+
+#carrito-icon i {
+    margin-right: 5px; 
+}
+
+#carrito {
+    position: absolute;
+    top: 70px; 
+    right: 10px; 
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none; 
+}
+
+#carrito h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#lista-carrito {
+    list-style: none;
+    padding: 0;
+}
+
+.cantidad-producto {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.carrito-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.carrito-imagen {
+    width: 50px; 
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.carrito-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.precio-total {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.eliminar-producto {
+    background-color: #f44336; 
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.cantidad-producto.resaltado {
+    background-color: #2196F3; 
+}
+
+#total {
+    font-size: 1.5em; 
+    font-weight: bold;
+    color: #4CAF50; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#total span {
+    color: inherit; 
+}
+
+#total strong {
+    display: inline-block; 
+    margin-left: 5px; 
+}
+
+/* boton de whatsapp */
+.botonWhatsapp {
+    background-color: #25d366;
+    border-color: #25d366;
+    position: fixed;
+    z-index: 1;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 100rem;
+    width: 50px;
+    height: 50px;
+    font-size: 27px !important;
+    line-height: 48px !important;
+    padding: 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1faf54;
+    backdrop-filter: blur(10px);
+    animation: slideUp 0.5s ease-out;
+}
+
+.botonWhatsapp:hover {
+    background-color: #1faf54;
+}
+
+.iconoWhatsapp {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 4rem;
+    line-height: 20px;
+}
+
+/* Fin boton de whatsapp */
+
+
+
+/* footer incio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 80px 0;
+}
+
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.footer-link {
+    width: 25%;
+    padding: 15px;
+
+}
+
+.footer-link h4 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-link ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer-link ul li a:hover {
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.social-link a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.social-link a:hover {
+    background-color: rgba(7, 23, 255, 0.733);
+}
+
+.fab {
+    font-size: 20px;
+}
+
+
+@media(max-width:991px) {
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-link {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* footer fin */
+
+
+
